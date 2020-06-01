@@ -22,13 +22,15 @@ body{
 
 #signin{
 	display: flex;
-	align-items: baseline;
+	align-items: center;
 	background-color: #0077C5;
 	border:none;
-	border-radius: 5px;
+	border-radius: 4px;
 	color: white;
-	height: 35px;
+	height: 34px;
 	width: 90px;
+	
+
 }
 
 .right{
@@ -41,6 +43,7 @@ body{
 	font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	color: #505050;
+	padding-bottom: 5px;
 }
 
 .blue-text{
@@ -50,3 +53,15 @@ body{
 
 }
 
+#lock{
+	font-size: 15px;
+	padding: 0 5px;
+}
+
+#main-header{
+	text-align: center;
+}
+
+#mentor{
+	background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg) no-repeat;
+}
