@@ -83,6 +83,7 @@ header{
 }
 
 #services{
+	
 	/*how to position elements in center*/
 	display: flex;
 	justify-content: center;
@@ -98,6 +99,63 @@ header{
 	color: #706F6F;
 
 }
+
+
+/*#services{
+	animation: fadeIn 2s ease-in forwards;
+  	animation-delay: 0s;
+}
+
+@keyframes fadeIn {
+	  0%   { opacity: 0; }
+	  50%  {opacity: 0;}
+	  100% { opacity: 1; }
+}*/
+
+#popup{
+	position: relative;
+  	animation-duration: 2s;
+  	animation-timing-function: cubic-bezier(0.7, 0, 0, 1);
+  	animation-delay: 0s;
+  	animation-iteration-count: 1;
+  	animation-direction: normal;
+  	animation-fill-mode: forwards;
+  	animation-play-state: running;
+  	animation-name: Popup;
+}
+
+@keyframes Popup {
+  	0%    { left: 142px;
+          transform: scale(1)}
+  	25%   { transform: scale(2)}
+  	50%   { left: 142px;
+          transform: scale(1);
+           }
+  	100%  { left: 0; }
+
+}
+
+#afterPopup {
+  animation-duration: 2.15s;
+  animation-timing-function: cubic-bezier(0.7, 0, 0, 1);
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-name: left-after-anim;
+}
+
+@keyframes left-after-anim {
+  0%    { 
+          opacity: 0}
+  50%   { left: 50px;
+          opacity: 0}
+  100%   { left: 0;
+           opacity: 100%;
+           }
+}
+
 
 .icon{
 	width: 24px;
